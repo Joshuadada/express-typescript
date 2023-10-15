@@ -9,7 +9,6 @@ This is a template for building web applications using Express.js, TypeScript, a
 - **TypeScript Integration:** Develop your application with TypeScript's static typing and modern JavaScript features.
 - **EJS Templating:** Create dynamic HTML content using EJS templates for server-side rendering.
 - **Express.js Framework:** Utilize the simplicity and flexibility of the Express.js framework for building web applications.
-- **Docker Support:** A Dockerfile for containerization, enabling deployment to container orchestration platforms.
 - **Development and Production Modes:** Configure the project to run in different environments with environment-specific settings.
 - **Static Assets:** Serve static assets (e.g., stylesheets, scripts) for enhancing your application's user interface.
 - **Customizable Views:** Customize views and templates using EJS to tailor the visual representation of your application.
