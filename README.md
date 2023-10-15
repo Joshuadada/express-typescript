@@ -1,5 +1,4 @@
-```markdown
-# Express.js with TypeScript and EJS Template
+# express-typescript
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -21,7 +20,7 @@ This is a template for building web applications using Express.js, TypeScript, a
 ## Getting Started
 
 Follow these steps to get started with this template:
-```
+
 1. **Clone the Repository:**
 
    ```bash
