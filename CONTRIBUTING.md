@@ -1,4 +1,3 @@
-```markdown
 # Contribution Guidelines
 
 Welcome to the express-typescript repository! We appreciate your interest in contributing to this project. By participating, you agree to abide by these guidelines.
@@ -55,4 +54,3 @@ By contributing to this project, you agree that your contributions will be licen
 We appreciate your contributions and thank you for helping make this project better!
 
 If you have any questions or need further assistance, feel free to reach out to us.
-```
