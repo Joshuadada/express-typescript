@@ -1,5 +1,5 @@
-import createError from "http-errors";
-import express from "express";
+import createError, { HttpError } from "http-errors";
+import express, { NextFunction, Request, Response } from "express";
 import path from "path";
 import cookieParser from "cookie-parser";
 import logger from "morgan";
@@ -23,12 +23,12 @@ app.use("/", indexRouter);
 app.use("/api/v1/users", usersRouter);
 
 // catch 404 and forward to error handler
-app.use((req, res, next) => {
+app.use((req: Request, res: Response, next: NextFunction) => {
   next(createError(404));
 });
 
 // error handler
-app.use((err: any, req: any, res: any, next: any) => {
+app.use((err: HttpError, req: Request, res: Response, next: NextFunction) => {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get("env") === "development" ? err : {};
